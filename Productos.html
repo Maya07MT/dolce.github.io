@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="icon" href="Recursos/Dolce.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="Css/estilosproductos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<header>
+
+    <div class="container__header">	
+
+        <div class="logo">
+        <img src="Recursos\Dolce.png" a href="C:\Users\myrms\OneDrive\PI2\index.html"> </a>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="C:\Users\myrms\OneDrive\PI2\Analisis y diseño de sistemas.html">Analisis y diseño de sistemas</a></li>
+                    <li><a href="C:\Users\myrms\OneDrive\PI2\Arquitectura de computadoras.html">Arquitectura de computadoras</a></li>
+                    <li><a href="C:\Users\myrms\OneDrive\PI2\Metodos numericos.html">Metodos numericos</a></li> <br>
+                </ul>
+            </nav>
+        </div>
+        <i class="fa-solid fa-bars" id="icon_menu"></i>
+    </div>
+
+</header>
+<body>
+   
+   <button id='cart-button' class="trigger cart-button-style">Ver Carro</button>
+    
+    
+   <div id="shop">
+       
+       <div class="products duvalin" id="p-1">
+           <img class="product-image" src="Recursos/Duvalin.jpg" width="80%" height="100%">
+           <p class="product-name">Duvalin</p>
+           <p class="product-description">Natilla Ricolino Duvalin Avellana, Fresa, Vainilla 270 g 18 u.</p>
+           <p class="product-price" value='26'>26</p>
+           <button class="add-to-cart" id='test'>Añadir al carrito</button>
+       </div>
+       
+       <div class="products winis" id="p-2">
+           <img class="product-image" src="Recursos/Winis.jpg" width="80%" height="100%">
+           <p class="product-name">Winis</p>
+           <p class="product-description">Caramelo suave Winis algodón de azúcar 176g.</p>
+           <p class="product-price" value='34'>34</p>
+           <button class="add-to-cart">Añadir al carro</button>
+       </div>
+       
+       <div class="products panditas" id="p-3">
+           <img class="product-image" src="Recursos/Panditas.jpg" width="80%" height="100%">
+           <p class="product-name">Panditas</p>
+           <p class="product-description">Gomitas frutales 1kg</p>
+           <p class="product-price" value='88'>88</p>
+           <button class="add-to-cart">Añadir al carro</button>
+       </div>
+       
+       <div class="products reeses" id="oneplus-6">
+           <img class="product-image" src="Recursos/Reeses.jpg" width="80%" height="100%">
+           <p class="product-name">Reeses</p>
+           <p class="product-description">Chocolate Reese's mini king size 70g pack de 6 pzas.</p>
+           <p class="product-price" value='138'>138</p>
+           <button class="add-to-cart">Añadir al carro</button>
+       </div>
+       
+       <!-- <div class="products ios apple" id="iphone-8">
+           <img class="product-image" src="http://via.placeholder.com/200x200">
+           <p class="product-name">iPhone 8</p>
+           <p class="product-description">The little, less-stylish brother of the iPhone X.</p>
+           <p class="product-price" value='719'>719</p>
+           <button class="add-to-cart">ADD TO CART</button>
+       </div>
+       
+       <div class="products android huawei" id="huawei-p20">
+           <img class="product-image" src="http://via.placeholder.com/200x200">
+           <p class="product-name">Huawei P20</p>
+           <p class="product-description">A solid performer from the chinese giant Huawei.</p>
+           <p class="product-price" value='769'>769</p>
+           <button class="add-to-cart">ADD TO CART</button>
+       </div>
+       
+       <div class="products android lg" id="lg-g7">
+           <img class="product-image" src="http://via.placeholder.com/200x200">
+           <p class="product-name">LG G7 ThinQ</p>
+           <p class="product-description">The latest and most powerful smartphone from LG.</p>
+           <p class="product-price" value='699'>699</p>
+           <button class="add-to-cart">ADD TO CART</button>
+       </div>
+       
+       <div class="products android huawei" id="huawei-mate-10-pro">
+           <img class="product-image" src="http://via.placeholder.com/200x200">
+           <p class="product-name">Huawei Mate 10 Pro</p>
+           <p class="product-description">The most powerful Android device yet from Huawei.</p>
+           <p class="product-price" value='899'>899</p>
+           <button class="add-to-cart">ADD TO CART</button>
+       </div>
+
+       <div class="products dulces" id="hola-mi-amor">
+           <img class="product-image" src="http://via.placeholder.com/200x200">
+           <p class="product-name">Hola chiquita</p>
+           <p class="product-description">Tas bien pinche preciosa alv</p>
+           <p class="product-price" value='1444'>Vales mil</p>
+           <button class="add-to-cart">ADD TO CART</button>
+       </div>
+
+       <div class="products dulces" id="hola-mi-amor45">
+           <img class="product-image" src="http://via.placeholder.com/200x200">
+           <p class="product-name">Hola chiquita</p>
+           <p class="product-description">Tas bien pinche preciosa alv</p>
+           <p class="product-price" value='1444'>Vales mil</p>
+           <button class="add-to-cart">ADD TO CART</button>
+       </div> -->
+   </div>
+   
+</div>
+   <div id='cart-wrapper' class="slider close">
+       <div id='cart'>
+           <div id="cart-products-wrapper">
+               <table id="cart-table">
+               <thead id="cart-table-header">
+                    <th class="name-col">Nombre del producto</th> 
+                    <th class="quantity-col">Cantidad</th>       
+                    <th class="price-col">Precio</th>
+                    <th class="updated-price-col">Precio actualizado</th>
+                    <th class="update-col">Actualizar</th>
+                    <th class="remove-col">Quitar</th>
+               </thead>
+               <tbody id="cart-table-body"></tbody>
+               </table>
+           </div>
+       </div> 
+       
+       <div id='amount-controls'>
+           <div id="cart-amount-wrapper">
+               <table>
+                   <tbody>
+                       <tr id='subtotal-wrappper'>
+                           <td id="subtotal-label">Subtotal:</td>
+                           <td id="subtotal">0.00</td>
+                       </tr>
+
+                       <tr id='total-wrapper'>
+                           <td id="total-label">Total:</td>
+                           <td id="total">0.00</td>
+                       </tr>
+
+                        <tr id="promo-checkout">
+                           <td id="promo-wrapper">
+                               <input id="promo" placeholder="Input Promo Code">
+                               <button id="apply-promo">Apply Promo</button>
+                           </td> 
+
+                           <td>
+                               <button id="checkout">Pagar</button>
+                           </td>
+                           
+                           <td>
+                               <button id="ks" class="keep-shopping">Continuar</button>
+                           </td>
+                       </tr> 
+                   </tbody>
+               </table> 
+           </div>
+       </div>
+   </div>
+</body>
+<script src="Js/jsproductos.js"></script>
+</html>
